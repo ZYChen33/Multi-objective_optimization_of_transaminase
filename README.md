@@ -24,3 +24,18 @@ pip install scikit-learn==0.24.2
 
 Ensure you replace <package_name> with the name of the required library and <version_number> with the specific version you need. It's important to use the correct versions to ensure compatibility with the script.
 
+##Usage
+### Downloading and Setting Up
+   To get started, download the entire repository by:
+   - Clicking the `Code` button at the top right of the page, then selecting `Download ZIP`.
+   - After downloading, unzip the file to a directory where you want to store the code and data.
+
+### Training ML Models and Virtual Screening
+   This repository contains the code and data for the **first-round model training and virtual screening of S-type transaminases** as described in the article.
+   - Primary workflow: train_screening.ipynb (Jupyter Notebook).
+   - Data: Training data: train.csv.
+           Exploration space: explore.csv.
+   - Outputs: Results are saved in the output/ directory.
+
+   To use your own data, please replace train.csv and explore.csv with your custom datasets and run train_screening.ipynb (ensure dependencies are installed).
+
