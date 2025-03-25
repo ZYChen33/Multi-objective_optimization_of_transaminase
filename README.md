@@ -30,10 +30,9 @@ Ensure you replace <package_name> with the name of the required library and <ver
 ### Training ML Models and Virtual Screening
    This repository contains the code and data for the **first-round model training and virtual screening of S-type transaminases** as described in the article.
    - Primary workflow: **train_screening.ipynb** (Jupyter Notebook).
-   - Data: Training data: **train.csv**
-
-           Exploration space: **explore.csv**
-   - Outputs: Results are saved in the directory **output**.
+   - Training data: **train.csv**
+   - Exploration space: **explore.csv**
+   - Outputs: Results are saved in the directory **output**
 
    To use your own data, please replace train.csv and explore.csv with your custom datasets and run train_screening.ipynb (ensure dependencies are installed).
 
