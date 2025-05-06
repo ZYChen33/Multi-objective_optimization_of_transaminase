@@ -94,12 +94,12 @@ def print_score(X_tr,X_te,y_tr,y_te,best_param,y_min,y_max,current_target,model=
     x_=np.array([y_min,y_max])
     y_=x_
     plt.plot(x_,y_,c="k")
-    plt.xlabel('True Values',fontsize=20)
+    plt.xlabel('Reference Values',fontsize=20)
     plt.ylabel('Predictions',fontsize=20)
     plt.title(plt_title,fontsize=22)
     t='training set R\u00b2=%s\ntest set R\u00b2=%s\ntraining set RMSE=%s\ntest set RMSE=%s' % (train_score,test_score,rmse_tr,rmse_te)
     plt.text(y_min+0.5,y_max-0.5,t,fontsize=20,verticalalignment="top",horizontalalignment="left")
-
-    plt.savefig(save_path,dpi=140)
+    
     plt.xticks(fontsize=20)
     plt.yticks(fontsize=20)
+    plt.savefig(save_path,dpi=140)
