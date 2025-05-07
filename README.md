@@ -1,5 +1,5 @@
 # Machine learning-guided protein engineering for the co-optimization of transaminase’s catalytic activity and stereoselectivity
-This repository contains the code and data for the study **"Machine learning-assisted protein engineering for the co-optimization of transaminase’s catalytic activity and stereose-lectivity"**. It includes tools for first-round single-objective model training and multi-objective virtual screening of S-type variants.
+This repository contains the code and data for the study **"Machine Learning-guided Protein Engineering for the Co-optimization of Transaminase’s Catalytic Activity and Stereose-lectivity"**. It includes tools for first-round single-objective model training and multi-objective virtual screening of S-type variants.
 
 ## Requirements
 To run the scripts provided in this repository, you'll need the following Python libraries:
