@@ -39,3 +39,5 @@ Ensure you replace <package_name> with the name of the required library and <ver
 ## Citation
 If you use this work, please cite: [DOI]
 
+## Expected Run Time
+Depending on the dataset size, the hyperparameter optimization of a model usually takes from a few hours to a day, and the prediction toward one sample usually takes a few seconds on a standard desktop computer.
